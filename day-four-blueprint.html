@@ -21,8 +21,45 @@
         <input required placeholder="Email" type="email" id="e-mail" />
       </div>
       <div>
+        <label for="user-name">Username</label>
+        <input required placeholder="Username" type="text" id="user-name" />
+      </div>
+      <div>
         <label for="password">Password</label>
         <input required placeholder="Password" minlength="10" type="password" />
+      </div>
+      <div>
+        <label for="birth-date">Birth date</label>
+        <input required placeholder="Birth date" type="date" id="birth-date" />
+      </div>
+      <div>
+        <label for="how-happy">How happy are you?</label>
+        <input
+          required
+          type="range"
+          min="0"
+          max="10"
+          value="5"
+          list="tickmarks"
+          id="how-happy"
+        />
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="1"></option>
+          <option value="2"></option>
+          <option value="3"></option>
+          <option value="4"></option>
+          <option value="5"></option>
+          <option value="6"></option>
+          <option value="7"></option>
+          <option value="8"></option>
+          <option value="9"></option>
+          <option value="10"></option>
+        </datalist>
+        <div>
+          <label for="fav-color">What is your fav.color?</label>
+          <input required type="color" id="fav-color" />
+        </div>
       </div>
       <input type="submit" value="Create Account" />
     </form>
