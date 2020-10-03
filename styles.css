@@ -1,3 +1,33 @@
-h1 {
-  color: tomato;
+html {
+  background-color: paleturquoise;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cajagrande {
+  margin: 50vh auto 0;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30vmax;
+  height: 30vmax;
+  background-color: cornflowerblue;
+  border: 3px solid black;
+}
+.littlebox {
+  box-sizing: border-box;
+  margin: 3%;
+  background-color: cadetblue;
+  border: 3px solid white;
+  width: 23%;
+  height: 23%;
+}
+
+.largo {
+  width: 80%;
+  border: 3px dashed white;
 }
