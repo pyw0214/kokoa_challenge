@@ -1,33 +1,69 @@
 html {
-  background-color: paleturquoise;
+  background-color: beige;
 }
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+h1 {
+  text-align: center;
+  font-size: 25px;
 }
-#cajagrande {
-  margin: 50vh auto 0;
-  transform: translateY(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 30vmax;
-  height: 30vmax;
-  background-color: cornflowerblue;
-  border: 3px solid black;
-}
-.littlebox {
-  box-sizing: border-box;
-  margin: 3%;
-  background-color: cadetblue;
+.tomatobox {
+  margin: 20px;
+  background-color: tomato;
+  width: 170px;
+  height: 300px;
+  position: relative;
   border: 3px solid white;
-  width: 23%;
-  height: 23%;
+}
+.tealbox {
+  margin: 20px;
+  background-color: teal;
+  width: 170px;
+  height: 300px;
+  position: relative;
+  border: 3px solid white;
+}
+.burlywoodbox {
+  margin: 20px;
+  background-color: burlywood;
+  width: 170px;
+  height: 300px;
+  position: relative;
+  border: 3px solid white;
+}
+.thistlebox {
+  margin: 20px;
+  background-color: thistle;
+  width: 170px;
+  height: 300px;
+  position: relative;
+  border: 3px solid white;
+}
+#color {
+  background-color: white;
+  font-weight: 600;
+  position: absolute;
+  padding: 10px 0 10px 0;
+  top: 40px;
+  width: 170px;
+}
+#color + div {
+  background-color: white;
+  font-weight: 800;
+  font-size: 12px;
+  position: absolute;
+  padding: 10px 0 10px 0;
+  top: 80px;
+  width: 170px;
+}
+.boxes1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.largo {
-  width: 80%;
-  border: 3px dashed white;
+.boxes1 ~ div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
